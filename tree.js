@@ -32,7 +32,7 @@ class Tree {
                         return searchTree(node.left) //Continue looking for the left most
 
                     }
-                } else if (data > node.data) {// Change
+                } else if (data > node.data) {// Change it again
                     if (node.right === null) { //checking if null
                         node.right = new Node(data);
                         return;
